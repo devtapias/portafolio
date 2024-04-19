@@ -179,6 +179,7 @@ a{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .hobbies__title{
@@ -190,6 +191,7 @@ a{
     display: flex;
     justify-content: space-between;
     gap: 16px;
+    
 }
 
 .hobbies__box{
@@ -218,20 +220,174 @@ a{
 
 /* Experiencia Académica*/
 
-section.academic{
+.academic{
+    display: flex;
+    flex-direction: column;
+    background: #EAF2FD;
+    margin: 0 -100px;
 
 }
+
+.academic__title{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+.academic__courses{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+
+.academic__courses__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    width: 310px;
+}
+
+.academic__courses__item__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 200px;
+    margin-bottom: 8px;
+}
+
+.academic__courses__item__img img{
+    position:absolute;
+    height: 136px;
+    width: auto;
+
+}
+
+.academic__courses__item__subtitle p{
+    font-size: 15px;
+    margin: 4px 0 10px 0;
+}
+
+.academic__courses__item__title h4{
+    font-size: 18px;
+    margin: 0;
+    height: 84px;
+}
+
+.academic__courses__item__title h4 p{
+    margin: 0 0 5px 0;
+}
+
+
 
 /* experiencia*/
 
-section.experience{
+.experience{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.experience__section__title{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.experiencie__box__one{
+    display: flex;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.experiencie__box__two{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 64px;
+}
+
+.experience__img{
+    width: 852px;
+}
+
+.experience__info__one, .experience__info__two{
+    display: flex;
+    flex-direction: column;
+}
+
+.experience__info__one{
+    margin-left: 55px;
+}
+
+.experience__info__two{
+    margin-right: 55px;
+}
+
+.experience__title{
+    margin: 0;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.experience__text{
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.experience__description{
+    display: flex;
+    margin-top: 10px;
 
 }
 
+.experiencia__botao--repo{
+    font-weight: normal;
+    color: #2A7AE4;
+    border-color: #2A7AE4;
+    height: 43px;
+    margin-right: 15px;
+    padding: 13px;
+}
+
+.experience__botao--demo{
+    color: #ffffff;
+    border-color: #2A7AE4;
+    background: #2A7AE4;
+    height: 43px;
+    padding: 13px;
+}
+
+
 /*Contacto*/
 
-section.formcontato{
+.formcontato{
+    display: flex;
+    background: #EAF2FD;
+    margin: 0 -100px;
+    height: 740px;
+}
 
+.formcontato__contacto{
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.formcontato__img{
+    margin-right: 16px;
+    display: flex;
+    width: 464px;
+    height: 593px;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
 }
 
 /*footeer*/
@@ -242,8 +398,6 @@ section.formcontato{
     align-items: center;
     justify-content: center;
     background: white;
-            border: solid; 
-            border-color: #EAF2FD;;
     text-align: center;
     font-size: 16px;
     margin: 0 -100px;
@@ -341,8 +495,49 @@ section.formcontato{
     }
 
 /*Formación Académica*/
+    .academic{
+        margin: 0 -50px;
+    }
+
+    .academic__courses{
+        margin: 0 50px;
+        flex-wrap: wrap;
+    }
+
+    .academic__title{
+        font-size: 22px;
+    }
+
+    .academic__courses__item__subtitle{
+        font-size: 8px;
+    }
+
+    .academic__courses__item__title{
+        font-size: 12px;
+    }
+    
+    .academic__courses__item__img{
+        height: 148px;
+    }
+
 
 /*Experiencia Profesional*/
+.experiencie__box__one, .experiencie__box__two{
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+.experience__img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.experience__info__one, .experience__info__two{
+    align-items: normal;
+    margin-left: 0;
+}
+
 
 /*Footer*/
     .footer{
@@ -402,6 +597,28 @@ section.formcontato{
 /*Hobbies*/
  
 /*Formación Académica*/
+
+    .academic{
+        margin: 0 -25px;
+    }
+
+    .academic__courses{
+        margin: 0 25px;
+        
+    }
+
+
+    .academic__title{
+        font-size: 22px;
+    }
+
+    .academic__courses__item__subtitle{
+        font-size: 6px;
+    }
+
+    .academic__courses__item__title{
+        font-size: 10px;
+    }
 
 /*Experiencia Profesional*/
 

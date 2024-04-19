@@ -590,6 +590,19 @@ a{
     margin-left: 0;
 }
 
+/*Contacto*/
+.formcontato--esquerda{
+    display: none;
+}
+
+.formcontato{
+    margin: 0 -50px;
+}
+
+.formcontato__contacto{
+    margin: 0 50px;
+}
+
 
 /*Footer*/
     .footer{
@@ -675,6 +688,13 @@ a{
 /*Experiencia Profesional*/
 
  /*Contacto*/
+ .formcontato{
+    margin: 0 -25px;
+}
+
+.formcontato__contacto{
+    margin: 0 25px;
+}
 
 /*Footer*/
 .footer{
@@ -687,3 +707,26 @@ a{
 }
 
 }
+
+
+#btn-volver-arriba {
+    display: none; /* Ocultar inicialmente el botón */
+    position: fixed; /* Posición fija para que el botón permanezca en su lugar mientras se desplaza la página */
+    bottom: 20px; /* Distancia desde el borde inferior de la ventana */
+    right: 20px; /* Distancia desde el borde derecho de la ventana */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color de texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 50%; /* Borde redondeado para formar un círculo */
+    width: 40px; /* Ancho del botón */
+    height: 40px; /* Altura del botón */
+    font-size: 24px; /* Tamaño de fuente del icono */
+    text-align: center; /* Centrar el contenido horizontalmente */
+    line-height: 40px; /* Centrar el contenido verticalmente */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  }
+  
+  #btn-volver-arriba:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el cursor */
+  }
+  
